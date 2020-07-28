@@ -1,4 +1,4 @@
-keras
+tensorflow
 shap
 dash
 modin
@@ -8,3 +8,5 @@ lifelines
 lightgbm
 conda-pack
 catboost
+optuna
+sklearn

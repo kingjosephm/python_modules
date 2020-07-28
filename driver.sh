@@ -22,4 +22,4 @@ cat "extra_packages.csv" >> "$PWD/../data/$(date +%F)/anaconda_pkg_list/packages
 cat "$PWD/../data/$(date +%F)/anaconda_pkg_list/packages.txt" | xargs -n 1 $newpip install
 
 echo "Done."
-
+read -p $'\nPress any key to close session...\n'
